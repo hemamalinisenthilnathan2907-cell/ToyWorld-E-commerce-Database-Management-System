@@ -1,0 +1,18 @@
+CREATE TABLE Category (
+    Category_ID NUMBER PRIMARY KEY,
+    Category_Name VARCHAR2(50) UNIQUE,
+    Description VARCHAR2(200)
+);
+
+INSERT INTO Category VALUES (1, 'Educational Toys', 'Toys that support learning');
+INSERT INTO Category VALUES (2, 'Soft Toys', 'Soft and cuddly toys');
+INSERT INTO Category VALUES (3, 'Remote Control Toys', 'Remote controlled toys');
+INSERT INTO Category VALUES (4, 'Board Games', 'Games played using boards');
+INSERT INTO Category VALUES (5, 'Outdoor Toys', 'Toys for outdoor activities');
+INSERT INTO Category VALUES (6, 'Dolls', 'Dolls and accessories');
+INSERT INTO Category VALUES (7, 'Building Blocks', 'Blocks for building');
+INSERT INTO Category VALUES (8, 'Puzzles', 'Puzzles for children');
+INSERT INTO Category VALUES (9, 'Action Figures', 'Character action figures');
+INSERT INTO Category VALUES (10, 'Musical Toys', 'Toys with musical sounds');
+
+COMMIT;

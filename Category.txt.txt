@@ -1,0 +1,23 @@
+CATEGORY TABLE
+
+Category_ID - Primary Key
+Category_Name - Unique Key
+Description - Category description
+
+CATEGORY RECORDS
+
+1 - Educational Toys
+2 - Soft Toys
+3 - Remote Control Toys
+4 - Board Games
+5 - Outdoor Toys
+6 - Dolls
+7 - Building Blocks
+8 - Puzzles
+9 - Action Figures
+10 - Musical Toys
+
+RELATIONSHIP
+
+Category contains Product
+Relationship - One-to-Many
