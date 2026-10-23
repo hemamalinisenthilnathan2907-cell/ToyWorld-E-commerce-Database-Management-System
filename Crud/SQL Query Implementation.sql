@@ -273,3 +273,5 @@ SQL> SELECT C.ID, C.NAME,
          3 Kaushik                        2250
          4 Chaitali                        650
          5 Hardik                          950
+
+COMMIT;
